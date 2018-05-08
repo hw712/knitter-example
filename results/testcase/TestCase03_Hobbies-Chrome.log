@@ -1,0 +1,19 @@
+
+**************  Test Case [TestCase03_Hobbies] [Chrome]  ***************
+2018-05-08 22:30:14    Step: Element [Music]: VerifyAttribute [checked] <equal> [None].
+2018-05-08 22:30:14    Pass: real value=[None]
+2018-05-08 22:30:14    Step: Element [Sport]: VerifyAttribute [checked] <equal> [None].
+2018-05-08 22:30:14    Pass: real value=[None]
+2018-05-08 22:30:14    Step: Element [Travel]: VerifyAttribute [checked] <equal> [None].
+2018-05-08 22:30:14    Pass: real value=[None]
+2018-05-08 22:30:14    Step: Element [Music]: Click()
+2018-05-08 22:30:14    Step: Element [Travel]: Click()
+2018-05-08 22:30:14    Step: Element [Music]: VerifyAttribute [checked] <equal> [true].
+2018-05-08 22:30:14    Pass: real value=[true]
+2018-05-08 22:30:14    Step: Element [Sport]: VerifyAttribute [checked] <equal> [None].
+2018-05-08 22:30:14    Pass: real value=[None]
+2018-05-08 22:30:14    Step: Element [Travel]: VerifyAttribute [checked] <equal> [true].
+2018-05-08 22:30:14    Pass: real value=[true]
+2018-05-08 22:30:14    Step: Element [Travel]: Click()
+2018-05-08 22:30:14    Step: Element [Travel]: VerifyAttribute [checked] <equal> [None].
+2018-05-08 22:30:14    Pass: real value=[None]

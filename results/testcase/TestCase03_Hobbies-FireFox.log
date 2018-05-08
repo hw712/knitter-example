@@ -1,0 +1,20 @@
+
+**************  Test Case [TestCase03_Hobbies] [FireFox]  ***************
+2018-05-08 22:30:17    Step: Launch Browser FireFox. URL = http://sleepycat.org/static/knitter/hobby.html
+2018-05-08 22:30:24    Step: Element [Music]: VerifyAttribute [checked] <equal> [None].
+2018-05-08 22:30:24    Pass: real value=[None]
+2018-05-08 22:30:25    Step: Element [Sport]: VerifyAttribute [checked] <equal> [None].
+2018-05-08 22:30:25    Pass: real value=[None]
+2018-05-08 22:30:25    Step: Element [Travel]: VerifyAttribute [checked] <equal> [None].
+2018-05-08 22:30:25    Pass: real value=[None]
+2018-05-08 22:30:25    Step: Element [Music]: Click()
+2018-05-08 22:30:25    Step: Element [Travel]: Click()
+2018-05-08 22:30:25    Step: Element [Music]: VerifyAttribute [checked] <equal> [true].
+2018-05-08 22:30:25    Pass: real value=[true]
+2018-05-08 22:30:25    Step: Element [Sport]: VerifyAttribute [checked] <equal> [None].
+2018-05-08 22:30:25    Pass: real value=[None]
+2018-05-08 22:30:25    Step: Element [Travel]: VerifyAttribute [checked] <equal> [true].
+2018-05-08 22:30:25    Pass: real value=[true]
+2018-05-08 22:30:25    Step: Element [Travel]: Click()
+2018-05-08 22:30:25    Step: Element [Travel]: VerifyAttribute [checked] <equal> [None].
+2018-05-08 22:30:25    Pass: real value=[None]
