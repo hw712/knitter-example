@@ -17,4 +17,4 @@ def windows():
     Browser.StartURL = "http://sleepycat.org/static/knitter/hobby.html"
 
     # Result
-    General.Path.Result = "results"
+    General.Path.Result = "result"
