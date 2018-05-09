@@ -72,33 +72,15 @@
             </style>
         </head>    
     
-    <body>
-    <script>
-        function countdown(){
-            var timer = 9;
-            setInterval(function() {
-                timer--;
-                document.getElementById('timer').innerHTML = timer;
+        <body> 
+        <h1>Web UI Automation Test Report</h1> 
+        <p style="text-align: center">
+            <a href="..\index.html" class="report-link">Latest Test Report</a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="..\history.html" class="report-link">History Test Reports</a>
+        </p>
+        <br />
         
-            }, 1000);
-        }
-        function autorefresh(){
-            window.location.reload(); 
-        } 
-        
-        countdown();
-        window.setTimeout('autorefresh()', 9000);
-    </script>
-    
-    <h1>Web UI Automation Test Report</h1>
-    <p style="text-align: center">
-        <a href="index.html" class="report-link">Latest Test Report</a>
-        &nbsp;&nbsp;&nbsp;
-        <a href="history.html" class="report-link">History Test Reports</a>
-    </p>
-    <br />
-    
-
     <table style="margin: auto">
         <tr class="tcaption"><th colspan="5">Summary</th></tr>
         

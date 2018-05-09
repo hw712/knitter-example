@@ -12,12 +12,12 @@ def TestCase01_UserInformation():
 
     Hobby.User.Title.SelectByOrder(3)
     Hobby.User.Title.VerifyAttribute("value", "Ms.")
-    Hobby.User.Title.VerifyAttribute("value", "Dr.", action="not equal")
+    Hobby.User.Title.VerifyAttribute("value", "Dr.", assertion="not equal")
 
     Hobby.User.Name.Set("Super Man")
-    Hobby.User.Name.VerifyAttribute("value", "Super", action="contain")
-    Hobby.User.Name.VerifyAttribute("value", "More", action="not contain")
-    Hobby.User.Name.VerifyAttribute("value", "Here Comes Super Man!!", action="in")
+    Hobby.User.Name.VerifyAttribute("value", "Super", assertion="contain")
+    Hobby.User.Name.VerifyAttribute("value", "More", assertion="not contain")
+    Hobby.User.Name.VerifyAttribute("value", "Here Comes Super Man!!", assertion="in")
 
 
 def TestCase02_Gender():
@@ -28,9 +28,13 @@ def TestCase02_Gender():
     Hobby.Gender.Male.VerifyAttribute("checked", "true")
     Hobby.Gender.Female.VerifyAttribute("checked", None)
 
-    Hobby.Gender.Female.Click()
-    Hobby.Gender.Male.VerifyAttribute("checked", None)
-    Hobby.Gender.Female.VerifyAttribute("checked", "true")
+    if Hobby.Gender.Female.IsAttribute("checked", None, assertion="equal"):
+        Hobby.Gender.Female.Click()
+
+        Hobby.Gender.Female.VerifyAttribute("checked", "true")
+        Hobby.Gender.Male.VerifyAttribute("checked", None)
+    else:
+        raise AssertionError("Female should be un-checked!")
 
 
 def TestCase03_Hobbies():
@@ -62,10 +66,10 @@ def TestCase04_SelectionResult():
 
     Hobby.SubmitButton.Click()
 
-    Hobby.Result.VerifyAttribute("innerHTML", "Sport", action="contain")
-    Hobby.Result.VerifyAttribute("innerHTML", "Male", action="contain")
-    Hobby.Result.VerifyAttribute("innerHTML", "Female", action="not contain")
-    Hobby.Result.VerifyAttribute("innerHTML", "Travel", action="not contain")
+    Hobby.Result.VerifyAttribute("innerHTML", "Sport", assertion="contain")
+    Hobby.Result.VerifyAttribute("innerHTML", "Male", assertion="contain")
+    Hobby.Result.VerifyAttribute("innerHTML", "Female", assertion="not contain")
+    Hobby.Result.VerifyAttribute("innerHTML", "Travel", assertion="not contain")
 
 
 def TestCase05_ThisOneShouldFail():
@@ -81,6 +85,6 @@ def TestCase05_ThisOneShouldFail():
 
     Hobby.SubmitButton.Click()
 
-    Hobby.Result.VerifyAttribute("innerHTML", "Sport", action="not contain")
-    Hobby.Result.VerifyAttribute("innerHTML", "Male", action="not contain")
-    Hobby.Result.VerifyAttribute("innerHTML", "Travel", action="not contain")
+    Hobby.Result.VerifyAttribute("innerHTML", "Sport", assertion="not contain")
+    Hobby.Result.VerifyAttribute("innerHTML", "Male", assertion="not contain")
+    Hobby.Result.VerifyAttribute("innerHTML", "Travel", assertion="not contain")
