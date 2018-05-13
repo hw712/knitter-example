@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Hobby</title>
+    <meta charset="UTF-8">
+
+    <style>
+        body {
+            width: 80%;
+            color: #6e6e6e;
+            font-size: 15px;
+            font-family: Verdana, Courier New;
+            text-align: center;
+        }
+
+
+        button {
+            width: 130px;
+            height: 28px;
+            background-color: #e0e0e0;
+            margin-right: 25px;
+            margin-left: 25px;
+            box-shadow: 3px 3px 2px #DBDBDB;
+        }
+
+        td {
+            text-align: left;
+            height: 36px;
+            border: 1px solid #DBDBDB;
+            border-collapse: collapse;
+            padding-left: 10px;
+        }
+
+        th {
+            height: 36px;
+            border: 1px solid #DBDBDB;
+            border-collapse: collapse;
+        }
+
+        .tbl-left {
+            text-align: right;
+            width: 150px;
+            padding-right: 10px;
+        }
+
+        table {
+            border: 1px solid #DBDBDB;
+            box-shadow: 6px 6px 4px #DBDBDB;
+            border-collapse: collapse;
+        }
+
+        hr {
+            display: block;
+            height: 1px;
+            border: 0;
+            border-top: 1px solid #ccc;
+            width: 1000px;
+            margin-top: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+
+<body>
+    <script>
+        function do_reset() {
+            document.getElementById("title").value = "Mr.";
+            document.getElementById("name").value = "";
+            document.getElementById("male").checked = false;
+            document.getElementById("female").checked = false;
+            document.getElementById("music").checked = false;
+            document.getElementById("sport").checked = false;
+            document.getElementById("travel").checked = false;
+            document.getElementById("result").innerHTML = "";
+        }
+
+
+        function do_submit() {
+            let title = document.getElementById("title").value;
+            let name = document.getElementById("name").value;
+            let male = document.getElementById("male");
+            let female = document.getElementById("female");
+            let music = document.getElementById("music");
+            let sport = document.getElementById("sport");
+            let travel = document.getElementById("travel");
+
+            let line1 = "";
+            if (name != "") {
+                line1 = title + " " + name + "<br />";
+            }
+
+
+            let gender = "";
+            if (male.checked == true) {
+                gender = "Male";
+            }
+            if (female.checked == true) {
+                gender = "Female";
+            }
+
+            let line2 = "";
+            if (gender != "") {
+                line2 = "Gender: " + gender + "<br />";
+            }
+
+
+            let hobbies = "";
+            if (music.checked == true) {
+                hobbies = hobbies + "Music,";
+            }
+            if (sport.checked == true) {
+                hobbies = hobbies + "Sport,";
+            }
+            if (travel.checked == true) {
+                hobbies = hobbies + "Travel";
+            }
+
+            if (hobbies.slice(-1) == ",") {
+                hobbies = hobbies.slice(0, -1);
+            }
+
+            let line3 = "";
+            if (hobbies != "") {
+                line3 = "Hobbies: " + hobbies + "<br />";
+            }
+
+            document.getElementById("result").innerHTML = line1 + line2 + line3;
+
+        }
+    </script>
+
+
+    <br />
+    <br />
+    <table style="margin: auto; width: 600px;">
+        <th colspan="2">Hobby</th>
+        <tr>
+            <td class="tbl-left">
+                <strong>User Name:</strong>
+            </td>
+            <td>
+                <select id="title">
+                    <option>Mr.</option>
+                    <option>Mrs.</option>
+                    <option>Ms.</option>
+                    <option>Dr.</option>
+                </select>
+
+                <input id="name" type="text"></input>
+            </td>
+        </tr>
+        <tr>
+            <td class="tbl-left">
+                <strong>Gender:</strong>
+            </td>
+            <td>
+                <input name="gender" id="male" type="radio">Male</input>
+                <input name="gender" id="female" type="radio">Female</input>
+            </td>
+        </tr>
+        <tr>
+            <td class="tbl-left">
+                <strong>Hobby:</strong>
+            </td>
+            <td>
+                <input type="checkbox" id="music">Music</input>
+                <input type="checkbox" id="sport">Sport</input>
+                <input type="checkbox" id="travel">Travel</input>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="tbl-left">
+                <strong>Your Selection:</strong>
+            </td>
+            <td style="height: 80px; color:#0c5457">
+                <div id="result"></div>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align:center; height: 50px;">
+                <button onclick="do_reset();">Reset</button>
+                <button onclick="do_submit();">Submit</button>
+            </td>
+        </tr>
+    </table>
+
+    <hr />
+    <p style="width: 1000px; color:#9e9e9e; margin: auto; text-align:left">This is a test page for automation test, which contains some basic web elements, such as textbox, checkbox, button, list,
+        etc. You can operate and check the properties of them with any of your automation test tool.</p>
+
+</body>
+
+</html>
