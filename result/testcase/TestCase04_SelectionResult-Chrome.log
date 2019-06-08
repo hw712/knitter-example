@@ -1,20 +1,20 @@
 
 **************  Test Case [TestCase04_SelectionResult] [Chrome]  ***************
-2018-05-09 22:14:46    Step: Element [Result]: VerifyAttribute [innerHTML] <equal> [].
-2018-05-09 22:14:46    Pass: real value=[]
-2018-05-09 22:14:46    Step: Element [Title]: Select by Order [1]
-2018-05-09 22:14:46    Step: Element [Title]: options Count = [4].
-2018-05-09 22:14:46    Step: Element [Title]: Do Click [Mr.]
-2018-05-09 22:14:46    Step: Element [Name]: Set [Super Man].
-2018-05-09 22:14:46    Step: Element [Male]: Click()
-2018-05-09 22:14:46    Step: Element [Music]: Click()
-2018-05-09 22:14:46    Step: Element [Sport]: Click()
-2018-05-09 22:14:46    Step: Element [SubmitButton]: Click()
-2018-05-09 22:14:46    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Sport].
-2018-05-09 22:14:47    Pass: real value=[Mr. Super Man<br>Gender: Male<br>Hobbies: Music,Sport<br>]
-2018-05-09 22:14:47    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Male].
-2018-05-09 22:14:47    Pass: real value=[Mr. Super Man<br>Gender: Male<br>Hobbies: Music,Sport<br>]
-2018-05-09 22:14:47    Step: Element [Result]: VerifyAttribute [innerHTML] <not contain> [Female].
-2018-05-09 22:14:47    Pass: real value=[Mr. Super Man<br>Gender: Male<br>Hobbies: Music,Sport<br>]
-2018-05-09 22:14:47    Step: Element [Result]: VerifyAttribute [innerHTML] <not contain> [Travel].
-2018-05-09 22:14:47    Pass: real value=[Mr. Super Man<br>Gender: Male<br>Hobbies: Music,Sport<br>]
+2019-06-08 08:20:07    Step: Element [Result]: VerifyAttribute [innerHTML] <equal> [].
+2019-06-08 08:20:07    Pass: real value=[]
+2019-06-08 08:20:07    Step: Element [Title]: Select by Order [1]
+2019-06-08 08:20:07    Step: Element [Title]: options Count = [4].
+2019-06-08 08:20:07    Step: Element [Title]: Do Click [Mr.]
+2019-06-08 08:20:07    Step: Element [Name]: Set [Super Man].
+2019-06-08 08:20:07    Step: Element [Male]: Click()
+2019-06-08 08:20:07    Step: Element [Music]: Click()
+2019-06-08 08:20:07    Step: Element [Sport]: Click()
+2019-06-08 08:20:07    Step: Element [SubmitButton]: Click()
+2019-06-08 08:20:07    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Sport].
+2019-06-08 08:20:07    Pass: real value=[Mr. Super Man<br>Gender: Male<br>Hobbies: Music,Sport<br>]
+2019-06-08 08:20:07    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Male].
+2019-06-08 08:20:07    Pass: real value=[Mr. Super Man<br>Gender: Male<br>Hobbies: Music,Sport<br>]
+2019-06-08 08:20:07    Step: Element [Result]: VerifyAttribute [innerHTML] <not contain> [Female].
+2019-06-08 08:20:07    Pass: real value=[Mr. Super Man<br>Gender: Male<br>Hobbies: Music,Sport<br>]
+2019-06-08 08:20:07    Step: Element [Result]: VerifyAttribute [innerHTML] <not contain> [Travel].
+2019-06-08 08:20:07    Pass: real value=[Mr. Super Man<br>Gender: Male<br>Hobbies: Music,Sport<br>]

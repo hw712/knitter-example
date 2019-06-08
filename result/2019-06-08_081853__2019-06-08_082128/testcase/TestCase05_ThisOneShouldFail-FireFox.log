@@ -1,0 +1,17 @@
+
+**************  Test Case [TestCase05_ThisOneShouldFail] [FireFox]  ***************
+2019-06-08 08:20:34    Step: Launch Browser FireFox. URL = http://sleepycat.org/knitter/hobby.html
+2019-06-08 08:20:42    Step: Element [Result]: VerifyAttribute [innerHTML] <equal> [].
+2019-06-08 08:20:42    Pass: real value=[]
+2019-06-08 08:20:42    Step: Element [Title]: Select by Order [1]
+2019-06-08 08:20:42    Step: Element [Title]: options Count = [4].
+2019-06-08 08:20:42    Step: Element [Title]: Do Click [Mr.]
+2019-06-08 08:20:42    Step: Element [Name]: Set [Super Man].
+2019-06-08 08:20:42    Step: Element [Male]: Click()
+2019-06-08 08:20:43    Step: Element [Music]: Click()
+2019-06-08 08:20:43    Step: Element [Sport]: Click()
+2019-06-08 08:20:43    Step: Element [SubmitButton]: Click()
+2019-06-08 08:20:43    Step: Element [Result]: VerifyAttribute [innerHTML] <not contain> [Sport].
+------------ Fail [2019-06-08 08:20:43] -------------------
+2019-06-08 08:20:43    Fail: real value=[Mr. Super Man<br>Gender: Male<br>Hobbies: Music,Sport<br>], Check ScreenShot [Fail__2019-06-08_08_20_43__TestCase05_ThisOneShouldFail-FireFox__firefox.png]
+------------ Fail [2019-06-08 08:20:43] ---------------------------------------

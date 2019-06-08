@@ -1,18 +1,18 @@
 
 **************  Test Case [TestCase02_Gender] [Chrome]  ***************
-2018-05-09 22:14:11    Step: Element [Male]: VerifyAttribute [checked] <equal> [None].
-2018-05-09 22:14:11    Pass: real value=[None]
-2018-05-09 22:14:11    Step: Element [Female]: VerifyAttribute [checked] <equal> [None].
-2018-05-09 22:14:11    Pass: real value=[None]
-2018-05-09 22:14:11    Step: Element [Male]: Click()
-2018-05-09 22:14:11    Step: Element [Male]: VerifyAttribute [checked] <equal> [true].
-2018-05-09 22:14:11    Pass: real value=[true]
-2018-05-09 22:14:11    Step: Element [Female]: VerifyAttribute [checked] <equal> [None].
-2018-05-09 22:14:11    Pass: real value=[None]
-2018-05-09 22:14:11    Step: Element [Female]: IsAttribute [checked] <equal> [None]?
-2018-05-09 22:14:12    Step: Yes!
-2018-05-09 22:14:12    Step: Element [Female]: Click()
-2018-05-09 22:14:12    Step: Element [Female]: VerifyAttribute [checked] <equal> [true].
-2018-05-09 22:14:12    Pass: real value=[true]
-2018-05-09 22:14:12    Step: Element [Male]: VerifyAttribute [checked] <equal> [None].
-2018-05-09 22:14:12    Pass: real value=[None]
+2019-06-08 08:19:26    Step: Element [Male]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:26    Pass: real value=[None]
+2019-06-08 08:19:26    Step: Element [Female]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:26    Pass: real value=[None]
+2019-06-08 08:19:26    Step: Element [Male]: Click()
+2019-06-08 08:19:26    Step: Element [Male]: VerifyAttribute [checked] <equal> [true].
+2019-06-08 08:19:26    Pass: real value=[true]
+2019-06-08 08:19:26    Step: Element [Female]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:26    Pass: real value=[None]
+2019-06-08 08:19:26    Step: Element [Female]: IsAttribute [checked] <equal> [None]?
+2019-06-08 08:19:26    Step: Yes!
+2019-06-08 08:19:26    Step: Element [Female]: Click()
+2019-06-08 08:19:27    Step: Element [Female]: VerifyAttribute [checked] <equal> [true].
+2019-06-08 08:19:27    Pass: real value=[true]
+2019-06-08 08:19:27    Step: Element [Male]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:27    Pass: real value=[None]

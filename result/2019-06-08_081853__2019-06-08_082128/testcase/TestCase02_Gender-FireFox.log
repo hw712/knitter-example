@@ -1,0 +1,19 @@
+
+**************  Test Case [TestCase02_Gender] [FireFox]  ***************
+2019-06-08 08:19:30    Step: Launch Browser FireFox. URL = http://sleepycat.org/knitter/hobby.html
+2019-06-08 08:19:37    Step: Element [Male]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:37    Pass: real value=[None]
+2019-06-08 08:19:37    Step: Element [Female]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:37    Pass: real value=[None]
+2019-06-08 08:19:37    Step: Element [Male]: Click()
+2019-06-08 08:19:37    Step: Element [Male]: VerifyAttribute [checked] <equal> [true].
+2019-06-08 08:19:37    Pass: real value=[true]
+2019-06-08 08:19:37    Step: Element [Female]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:37    Pass: real value=[None]
+2019-06-08 08:19:37    Step: Element [Female]: IsAttribute [checked] <equal> [None]?
+2019-06-08 08:19:37    Step: Yes!
+2019-06-08 08:19:37    Step: Element [Female]: Click()
+2019-06-08 08:19:38    Step: Element [Female]: VerifyAttribute [checked] <equal> [true].
+2019-06-08 08:19:38    Pass: real value=[true]
+2019-06-08 08:19:38    Step: Element [Male]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:38    Pass: real value=[None]

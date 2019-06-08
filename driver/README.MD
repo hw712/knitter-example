@@ -2,16 +2,16 @@
 geckodriver.exe (FireFox)
 -----------------------------------------------
 - Version
-    * geckodriver-v0.20.0-win64.zip
+    * geckodriver-v0.24.0-win64.zip
 
 - Location
     * https://github.com/mozilla/geckodriver/releases
 
 - Release Date
-    * 2018-03-13
+    * 2019-01-29
     
 - Supported FireFox Versions
-    * 59.0.1 (64bit)
+    * 67.0.0 (64bit)
     
 - FireFox Downloading
     * http://ftp.mozilla.org/pub/firefox/releases/

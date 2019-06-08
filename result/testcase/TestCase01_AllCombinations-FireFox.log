@@ -1,121 +1,121 @@
 
 **************  Test Case [TestCase01_AllCombinations] [FireFox]  ***************
-2018-05-09 22:15:29    Step: Launch Browser FireFox. URL = http://sleepycat.org/static/knitter/hobby.html
+2019-06-08 08:21:10    Step: Launch Browser FireFox. URL = http://sleepycat.org/knitter/hobby.html
 
-2018-05-09 22:15:34    Section: Execute Excel Data of Line [1]
-2018-05-09 22:15:34    Step: Excel Column [Title]=[Dr.]
-2018-05-09 22:15:34    Step: Excel Column [Name]=[Ross Geller]
-2018-05-09 22:15:34    Step: Excel Column [Gender]=[Male]
-2018-05-09 22:15:34    Step: Excel Column [Hobbies]=[Sport,Music]
-2018-05-09 22:15:34    Step: Element [ResetButton]: Click()
-2018-05-09 22:15:35    Step: Element [Title]: Select [Dr.].
-2018-05-09 22:15:35    Step: Element [Title]: option [Mr.]
-2018-05-09 22:15:35    Step: Element [Title]: option [Mrs.]
-2018-05-09 22:15:35    Step: Element [Title]: option [Ms.]
-2018-05-09 22:15:35    Step: Element [Title]: option [Dr.]
-2018-05-09 22:15:35    Step: Element [Name]: Set [Ross Geller].
-2018-05-09 22:15:35    Step: Element [Male]: Click()
-2018-05-09 22:15:35    Step: Element [Music]: Click()
-2018-05-09 22:15:36    Step: Element [Sport]: Click()
-2018-05-09 22:15:36    Step: Element [SubmitButton]: Click()
-2018-05-09 22:15:36    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Male].
-2018-05-09 22:15:36    Pass: real value=[Dr. Ross Geller<br>Gender: Male<br>Hobbies: Music,Sport<br>]
-2018-05-09 22:15:36    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Dr. Ross Geller].
-2018-05-09 22:15:36    Pass: real value=[Dr. Ross Geller<br>Gender: Male<br>Hobbies: Music,Sport<br>]
+2019-06-08 08:21:17    Section: Execute Excel Data of Line [1]
+2019-06-08 08:21:17    Step: Excel Column [Title]=[Dr.]
+2019-06-08 08:21:17    Step: Excel Column [Name]=[Ross Geller]
+2019-06-08 08:21:17    Step: Excel Column [Gender]=[Male]
+2019-06-08 08:21:17    Step: Excel Column [Hobbies]=[Sport,Music]
+2019-06-08 08:21:17    Step: Element [ResetButton]: Click()
+2019-06-08 08:21:17    Step: Element [Title]: Select [Dr.].
+2019-06-08 08:21:17    Step: Element [Title]: option [Mr.]
+2019-06-08 08:21:17    Step: Element [Title]: option [Mrs.]
+2019-06-08 08:21:17    Step: Element [Title]: option [Ms.]
+2019-06-08 08:21:17    Step: Element [Title]: option [Dr.]
+2019-06-08 08:21:18    Step: Element [Name]: Set [Ross Geller].
+2019-06-08 08:21:18    Step: Element [Male]: Click()
+2019-06-08 08:21:18    Step: Element [Music]: Click()
+2019-06-08 08:21:18    Step: Element [Sport]: Click()
+2019-06-08 08:21:18    Step: Element [SubmitButton]: Click()
+2019-06-08 08:21:18    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Male].
+2019-06-08 08:21:18    Pass: real value=[Dr. Ross Geller<br>Gender: Male<br>Hobbies: Music,Sport<br>]
+2019-06-08 08:21:18    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Dr. Ross Geller].
+2019-06-08 08:21:18    Pass: real value=[Dr. Ross Geller<br>Gender: Male<br>Hobbies: Music,Sport<br>]
 
-2018-05-09 22:15:36    Section: Execute Excel Data of Line [2]
-2018-05-09 22:15:36    Step: Excel Column [Title]=[Mrs.]
-2018-05-09 22:15:36    Step: Excel Column [Name]=[Chandler Bing]
-2018-05-09 22:15:36    Step: Excel Column [Gender]=[Male]
-2018-05-09 22:15:36    Step: Excel Column [Hobbies]=[Sport,Travel,Music]
-2018-05-09 22:15:36    Step: Element [ResetButton]: Click()
-2018-05-09 22:15:36    Step: Element [Title]: Select [Mrs.].
-2018-05-09 22:15:36    Step: Element [Title]: option [Mr.]
-2018-05-09 22:15:36    Step: Element [Title]: option [Mrs.]
-2018-05-09 22:15:37    Step: Element [Name]: Set [Chandler Bing].
-2018-05-09 22:15:37    Step: Element [Male]: Click()
-2018-05-09 22:15:37    Step: Element [Travel]: Click()
-2018-05-09 22:15:37    Step: Element [Music]: Click()
-2018-05-09 22:15:37    Step: Element [Sport]: Click()
-2018-05-09 22:15:38    Step: Element [SubmitButton]: Click()
-2018-05-09 22:15:38    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Male].
-2018-05-09 22:15:38    Pass: real value=[Mrs. Chandler Bing<br>Gender: Male<br>Hobbies: Music,Sport,Travel<br>]
-2018-05-09 22:15:38    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Mrs. Chandler Bing].
-2018-05-09 22:15:38    Pass: real value=[Mrs. Chandler Bing<br>Gender: Male<br>Hobbies: Music,Sport,Travel<br>]
+2019-06-08 08:21:18    Section: Execute Excel Data of Line [2]
+2019-06-08 08:21:18    Step: Excel Column [Title]=[Mrs.]
+2019-06-08 08:21:18    Step: Excel Column [Name]=[Chandler Bing]
+2019-06-08 08:21:18    Step: Excel Column [Gender]=[Male]
+2019-06-08 08:21:18    Step: Excel Column [Hobbies]=[Sport,Travel,Music]
+2019-06-08 08:21:18    Step: Element [ResetButton]: Click()
+2019-06-08 08:21:19    Step: Element [Title]: Select [Mrs.].
+2019-06-08 08:21:19    Step: Element [Title]: option [Mr.]
+2019-06-08 08:21:19    Step: Element [Title]: option [Mrs.]
+2019-06-08 08:21:19    Step: Element [Name]: Set [Chandler Bing].
+2019-06-08 08:21:19    Step: Element [Male]: Click()
+2019-06-08 08:21:19    Step: Element [Travel]: Click()
+2019-06-08 08:21:19    Step: Element [Music]: Click()
+2019-06-08 08:21:20    Step: Element [Sport]: Click()
+2019-06-08 08:21:20    Step: Element [SubmitButton]: Click()
+2019-06-08 08:21:20    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Male].
+2019-06-08 08:21:20    Pass: real value=[Mrs. Chandler Bing<br>Gender: Male<br>Hobbies: Music,Sport,Travel<br>]
+2019-06-08 08:21:20    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Mrs. Chandler Bing].
+2019-06-08 08:21:20    Pass: real value=[Mrs. Chandler Bing<br>Gender: Male<br>Hobbies: Music,Sport,Travel<br>]
 
-2018-05-09 22:15:38    Section: Execute Excel Data of Line [3]
-2018-05-09 22:15:38    Step: Excel Column [Title]=[Mr.]
-2018-05-09 22:15:38    Step: Excel Column [Name]=[Joey Tribbiani]
-2018-05-09 22:15:38    Step: Excel Column [Gender]=[Male]
-2018-05-09 22:15:38    Step: Excel Column [Hobbies]=[Music]
-2018-05-09 22:15:38    Step: Element [ResetButton]: Click()
-2018-05-09 22:15:38    Step: Element [Title]: Select [Mr.].
-2018-05-09 22:15:38    Step: Element [Title]: option [Mr.]
-2018-05-09 22:15:38    Step: Element [Name]: Set [Joey Tribbiani].
-2018-05-09 22:15:38    Step: Element [Male]: Click()
-2018-05-09 22:15:39    Step: Element [Music]: Click()
-2018-05-09 22:15:39    Step: Element [SubmitButton]: Click()
-2018-05-09 22:15:39    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Male].
-2018-05-09 22:15:39    Pass: real value=[Mr. Joey Tribbiani<br>Gender: Male<br>Hobbies: Music<br>]
-2018-05-09 22:15:39    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Mr. Joey Tribbiani].
-2018-05-09 22:15:39    Pass: real value=[Mr. Joey Tribbiani<br>Gender: Male<br>Hobbies: Music<br>]
+2019-06-08 08:21:20    Section: Execute Excel Data of Line [3]
+2019-06-08 08:21:20    Step: Excel Column [Title]=[Mr.]
+2019-06-08 08:21:20    Step: Excel Column [Name]=[Joey Tribbiani]
+2019-06-08 08:21:20    Step: Excel Column [Gender]=[Male]
+2019-06-08 08:21:20    Step: Excel Column [Hobbies]=[Music]
+2019-06-08 08:21:20    Step: Element [ResetButton]: Click()
+2019-06-08 08:21:20    Step: Element [Title]: Select [Mr.].
+2019-06-08 08:21:20    Step: Element [Title]: option [Mr.]
+2019-06-08 08:21:21    Step: Element [Name]: Set [Joey Tribbiani].
+2019-06-08 08:21:21    Step: Element [Male]: Click()
+2019-06-08 08:21:21    Step: Element [Music]: Click()
+2019-06-08 08:21:21    Step: Element [SubmitButton]: Click()
+2019-06-08 08:21:21    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Male].
+2019-06-08 08:21:21    Pass: real value=[Mr. Joey Tribbiani<br>Gender: Male<br>Hobbies: Music<br>]
+2019-06-08 08:21:21    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Mr. Joey Tribbiani].
+2019-06-08 08:21:21    Pass: real value=[Mr. Joey Tribbiani<br>Gender: Male<br>Hobbies: Music<br>]
 
-2018-05-09 22:15:39    Section: Execute Excel Data of Line [4]
-2018-05-09 22:15:39    Step: Excel Column [Title]=[Mrs.]
-2018-05-09 22:15:39    Step: Excel Column [Name]=[Phoebe Buffay]
-2018-05-09 22:15:39    Step: Excel Column [Gender]=[Female]
-2018-05-09 22:15:39    Step: Excel Column [Hobbies]=[Travel]
-2018-05-09 22:15:39    Step: Element [ResetButton]: Click()
-2018-05-09 22:15:39    Step: Element [Title]: Select [Mrs.].
-2018-05-09 22:15:39    Step: Element [Title]: option [Mr.]
-2018-05-09 22:15:39    Step: Element [Title]: option [Mrs.]
-2018-05-09 22:15:40    Step: Element [Name]: Set [Phoebe Buffay].
-2018-05-09 22:15:40    Step: Element [Female]: Click()
-2018-05-09 22:15:40    Step: Element [Travel]: Click()
-2018-05-09 22:15:40    Step: Element [SubmitButton]: Click()
-2018-05-09 22:15:40    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Female].
-2018-05-09 22:15:40    Pass: real value=[Mrs. Phoebe Buffay<br>Gender: Female<br>Hobbies: Travel<br>]
-2018-05-09 22:15:40    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Mrs. Phoebe Buffay].
-2018-05-09 22:15:40    Pass: real value=[Mrs. Phoebe Buffay<br>Gender: Female<br>Hobbies: Travel<br>]
+2019-06-08 08:21:21    Section: Execute Excel Data of Line [4]
+2019-06-08 08:21:21    Step: Excel Column [Title]=[Mrs.]
+2019-06-08 08:21:21    Step: Excel Column [Name]=[Phoebe Buffay]
+2019-06-08 08:21:21    Step: Excel Column [Gender]=[Female]
+2019-06-08 08:21:21    Step: Excel Column [Hobbies]=[Travel]
+2019-06-08 08:21:21    Step: Element [ResetButton]: Click()
+2019-06-08 08:21:22    Step: Element [Title]: Select [Mrs.].
+2019-06-08 08:21:22    Step: Element [Title]: option [Mr.]
+2019-06-08 08:21:22    Step: Element [Title]: option [Mrs.]
+2019-06-08 08:21:22    Step: Element [Name]: Set [Phoebe Buffay].
+2019-06-08 08:21:22    Step: Element [Female]: Click()
+2019-06-08 08:21:22    Step: Element [Travel]: Click()
+2019-06-08 08:21:22    Step: Element [SubmitButton]: Click()
+2019-06-08 08:21:22    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Female].
+2019-06-08 08:21:22    Pass: real value=[Mrs. Phoebe Buffay<br>Gender: Female<br>Hobbies: Travel<br>]
+2019-06-08 08:21:23    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Mrs. Phoebe Buffay].
+2019-06-08 08:21:23    Pass: real value=[Mrs. Phoebe Buffay<br>Gender: Female<br>Hobbies: Travel<br>]
 
-2018-05-09 22:15:40    Section: Execute Excel Data of Line [5]
-2018-05-09 22:15:40    Step: Excel Column [Title]=[Ms.]
-2018-05-09 22:15:40    Step: Excel Column [Name]=[Monica Geller]
-2018-05-09 22:15:40    Step: Excel Column [Gender]=[Female]
-2018-05-09 22:15:40    Step: Excel Column [Hobbies]=[Sport,Travel,Music]
-2018-05-09 22:15:40    Step: Element [ResetButton]: Click()
-2018-05-09 22:15:41    Step: Element [Title]: Select [Ms.].
-2018-05-09 22:15:41    Step: Element [Title]: option [Mr.]
-2018-05-09 22:15:41    Step: Element [Title]: option [Mrs.]
-2018-05-09 22:15:41    Step: Element [Title]: option [Ms.]
-2018-05-09 22:15:41    Step: Element [Name]: Set [Monica Geller].
-2018-05-09 22:15:41    Step: Element [Female]: Click()
-2018-05-09 22:15:41    Step: Element [Travel]: Click()
-2018-05-09 22:15:41    Step: Element [Music]: Click()
-2018-05-09 22:15:42    Step: Element [Sport]: Click()
-2018-05-09 22:15:42    Step: Element [SubmitButton]: Click()
-2018-05-09 22:15:42    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Female].
-2018-05-09 22:15:42    Pass: real value=[Ms. Monica Geller<br>Gender: Female<br>Hobbies: Music,Sport,Travel<br>]
-2018-05-09 22:15:42    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Ms. Monica Geller].
-2018-05-09 22:15:42    Pass: real value=[Ms. Monica Geller<br>Gender: Female<br>Hobbies: Music,Sport,Travel<br>]
+2019-06-08 08:21:23    Section: Execute Excel Data of Line [5]
+2019-06-08 08:21:23    Step: Excel Column [Title]=[Ms.]
+2019-06-08 08:21:23    Step: Excel Column [Name]=[Monica Geller]
+2019-06-08 08:21:23    Step: Excel Column [Gender]=[Female]
+2019-06-08 08:21:23    Step: Excel Column [Hobbies]=[Sport,Travel,Music]
+2019-06-08 08:21:23    Step: Element [ResetButton]: Click()
+2019-06-08 08:21:23    Step: Element [Title]: Select [Ms.].
+2019-06-08 08:21:23    Step: Element [Title]: option [Mr.]
+2019-06-08 08:21:23    Step: Element [Title]: option [Mrs.]
+2019-06-08 08:21:23    Step: Element [Title]: option [Ms.]
+2019-06-08 08:21:23    Step: Element [Name]: Set [Monica Geller].
+2019-06-08 08:21:23    Step: Element [Female]: Click()
+2019-06-08 08:21:23    Step: Element [Travel]: Click()
+2019-06-08 08:21:23    Step: Element [Music]: Click()
+2019-06-08 08:21:24    Step: Element [Sport]: Click()
+2019-06-08 08:21:24    Step: Element [SubmitButton]: Click()
+2019-06-08 08:21:24    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Female].
+2019-06-08 08:21:24    Pass: real value=[Ms. Monica Geller<br>Gender: Female<br>Hobbies: Music,Sport,Travel<br>]
+2019-06-08 08:21:24    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Ms. Monica Geller].
+2019-06-08 08:21:24    Pass: real value=[Ms. Monica Geller<br>Gender: Female<br>Hobbies: Music,Sport,Travel<br>]
 
-2018-05-09 22:15:42    Section: Execute Excel Data of Line [6]
-2018-05-09 22:15:42    Step: Excel Column [Title]=[Ms.]
-2018-05-09 22:15:42    Step: Excel Column [Name]=[Rachel Green]
-2018-05-09 22:15:42    Step: Excel Column [Gender]=[Female]
-2018-05-09 22:15:42    Step: Excel Column [Hobbies]=[Sport,Travel,Music]
-2018-05-09 22:15:42    Step: Element [ResetButton]: Click()
-2018-05-09 22:15:42    Step: Element [Title]: Select [Ms.].
-2018-05-09 22:15:42    Step: Element [Title]: option [Mr.]
-2018-05-09 22:15:42    Step: Element [Title]: option [Mrs.]
-2018-05-09 22:15:42    Step: Element [Title]: option [Ms.]
-2018-05-09 22:15:43    Step: Element [Name]: Set [Rachel Green].
-2018-05-09 22:15:43    Step: Element [Female]: Click()
-2018-05-09 22:15:43    Step: Element [Travel]: Click()
-2018-05-09 22:15:43    Step: Element [Music]: Click()
-2018-05-09 22:15:43    Step: Element [Sport]: Click()
-2018-05-09 22:15:44    Step: Element [SubmitButton]: Click()
-2018-05-09 22:15:44    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Female].
-2018-05-09 22:15:44    Pass: real value=[Ms. Rachel Green<br>Gender: Female<br>Hobbies: Music,Sport,Travel<br>]
-2018-05-09 22:15:44    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Ms. Rachel Green].
-2018-05-09 22:15:44    Pass: real value=[Ms. Rachel Green<br>Gender: Female<br>Hobbies: Music,Sport,Travel<br>]
+2019-06-08 08:21:24    Section: Execute Excel Data of Line [6]
+2019-06-08 08:21:24    Step: Excel Column [Title]=[Ms.]
+2019-06-08 08:21:24    Step: Excel Column [Name]=[Rachel Green]
+2019-06-08 08:21:24    Step: Excel Column [Gender]=[Female]
+2019-06-08 08:21:24    Step: Excel Column [Hobbies]=[Sport,Travel,Music]
+2019-06-08 08:21:24    Step: Element [ResetButton]: Click()
+2019-06-08 08:21:24    Step: Element [Title]: Select [Ms.].
+2019-06-08 08:21:24    Step: Element [Title]: option [Mr.]
+2019-06-08 08:21:24    Step: Element [Title]: option [Mrs.]
+2019-06-08 08:21:24    Step: Element [Title]: option [Ms.]
+2019-06-08 08:21:25    Step: Element [Name]: Set [Rachel Green].
+2019-06-08 08:21:25    Step: Element [Female]: Click()
+2019-06-08 08:21:25    Step: Element [Travel]: Click()
+2019-06-08 08:21:25    Step: Element [Music]: Click()
+2019-06-08 08:21:25    Step: Element [Sport]: Click()
+2019-06-08 08:21:26    Step: Element [SubmitButton]: Click()
+2019-06-08 08:21:26    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Female].
+2019-06-08 08:21:26    Pass: real value=[Ms. Rachel Green<br>Gender: Female<br>Hobbies: Music,Sport,Travel<br>]
+2019-06-08 08:21:26    Step: Element [Result]: VerifyAttribute [innerHTML] <contain> [Ms. Rachel Green].
+2019-06-08 08:21:26    Pass: real value=[Ms. Rachel Green<br>Gender: Female<br>Hobbies: Music,Sport,Travel<br>]

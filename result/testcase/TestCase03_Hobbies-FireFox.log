@@ -1,20 +1,20 @@
 
 **************  Test Case [TestCase03_Hobbies] [FireFox]  ***************
-2018-05-09 22:14:32    Step: Launch Browser FireFox. URL = http://sleepycat.org/static/knitter/hobby.html
-2018-05-09 22:14:38    Step: Element [Music]: VerifyAttribute [checked] <equal> [None].
-2018-05-09 22:14:38    Pass: real value=[None]
-2018-05-09 22:14:38    Step: Element [Sport]: VerifyAttribute [checked] <equal> [None].
-2018-05-09 22:14:38    Pass: real value=[None]
-2018-05-09 22:14:38    Step: Element [Travel]: VerifyAttribute [checked] <equal> [None].
-2018-05-09 22:14:38    Pass: real value=[None]
-2018-05-09 22:14:38    Step: Element [Music]: Click()
-2018-05-09 22:14:38    Step: Element [Travel]: Click()
-2018-05-09 22:14:38    Step: Element [Music]: VerifyAttribute [checked] <equal> [true].
-2018-05-09 22:14:38    Pass: real value=[true]
-2018-05-09 22:14:38    Step: Element [Sport]: VerifyAttribute [checked] <equal> [None].
-2018-05-09 22:14:38    Pass: real value=[None]
-2018-05-09 22:14:38    Step: Element [Travel]: VerifyAttribute [checked] <equal> [true].
-2018-05-09 22:14:38    Pass: real value=[true]
-2018-05-09 22:14:38    Step: Element [Travel]: Click()
-2018-05-09 22:14:39    Step: Element [Travel]: VerifyAttribute [checked] <equal> [None].
-2018-05-09 22:14:39    Pass: real value=[None]
+2019-06-08 08:19:50    Step: Launch Browser FireFox. URL = http://sleepycat.org/knitter/hobby.html
+2019-06-08 08:19:57    Step: Element [Music]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:57    Pass: real value=[None]
+2019-06-08 08:19:57    Step: Element [Sport]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:57    Pass: real value=[None]
+2019-06-08 08:19:57    Step: Element [Travel]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:57    Pass: real value=[None]
+2019-06-08 08:19:57    Step: Element [Music]: Click()
+2019-06-08 08:19:57    Step: Element [Travel]: Click()
+2019-06-08 08:19:58    Step: Element [Music]: VerifyAttribute [checked] <equal> [true].
+2019-06-08 08:19:58    Pass: real value=[true]
+2019-06-08 08:19:58    Step: Element [Sport]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:58    Pass: real value=[None]
+2019-06-08 08:19:58    Step: Element [Travel]: VerifyAttribute [checked] <equal> [true].
+2019-06-08 08:19:58    Pass: real value=[true]
+2019-06-08 08:19:58    Step: Element [Travel]: Click()
+2019-06-08 08:19:58    Step: Element [Travel]: VerifyAttribute [checked] <equal> [None].
+2019-06-08 08:19:58    Pass: real value=[None]
