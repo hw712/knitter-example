@@ -1,29 +1,29 @@
 
 **************  Test Case [TestCase01_UserInformation] [Chrome]  ***************
-2018-05-09 22:13:51    Step: Element [Title]: WaitForAppearing...
-2018-05-09 22:13:51    Step: Element [Title]: Found [1] Element. Tried [1] Times.
-2018-05-09 22:13:51    Step: Element [Title]: Verify Enabled = [True]
-2018-05-09 22:13:51    Step: Element [Title]: attribute 'is_disabled' = [None]
-2018-05-09 22:13:51    Pass: Pass
-2018-05-09 22:13:51    Step: Element [Title]: Verify Visible = [True].
-2018-05-09 22:13:51    Step: Element [Title]: Count = [1]
-2018-05-09 22:13:51    Pass: Visible!
-2018-05-09 22:13:51    Step: Element [Title]: Select [Mrs.].
-2018-05-09 22:13:51    Step: Element [Title]: option [Mr.]
-2018-05-09 22:13:51    Step: Element [Title]: option [Mrs.]
-2018-05-09 22:13:51    Step: Element [Title]: VerifyAttribute [value] <equal> [Mrs.].
-2018-05-09 22:13:51    Pass: real value=[Mrs.]
-2018-05-09 22:13:51    Step: Element [Title]: Select by Order [3]
-2018-05-09 22:13:51    Step: Element [Title]: options Count = [4].
-2018-05-09 22:13:52    Step: Element [Title]: Do Click [Ms.]
-2018-05-09 22:13:52    Step: Element [Title]: VerifyAttribute [value] <equal> [Ms.].
-2018-05-09 22:13:52    Pass: real value=[Ms.]
-2018-05-09 22:13:52    Step: Element [Title]: VerifyAttribute [value] <not equal> [Dr.].
-2018-05-09 22:13:52    Pass: real value=[Ms.]
-2018-05-09 22:13:52    Step: Element [Name]: Set [Super Man].
-2018-05-09 22:13:52    Step: Element [Name]: VerifyAttribute [value] <contain> [Super].
-2018-05-09 22:13:52    Pass: real value=[Super Man]
-2018-05-09 22:13:52    Step: Element [Name]: VerifyAttribute [value] <not contain> [More].
-2018-05-09 22:13:52    Pass: real value=[Super Man]
-2018-05-09 22:13:52    Step: Element [Name]: VerifyAttribute [value] <in> [Here Comes Super Man!!].
-2018-05-09 22:13:52    Pass: real value=[Super Man]
+2019-06-08 08:19:05    Step: Element [Title]: WaitForAppearing...
+2019-06-08 08:19:05    Step: Element [Title]: Found [1] Element. Tried [1] Times.
+2019-06-08 08:19:05    Step: Element [Title]: Verify Enabled = [True]
+2019-06-08 08:19:05    Step: Element [Title]: attribute 'is_disabled' = [None]
+2019-06-08 08:19:05    Pass: Pass
+2019-06-08 08:19:05    Step: Element [Title]: Verify Visible = [True].
+2019-06-08 08:19:05    Step: Element [Title]: Count = [1]
+2019-06-08 08:19:05    Pass: Visible!
+2019-06-08 08:19:05    Step: Element [Title]: Select [Mrs.].
+2019-06-08 08:19:05    Step: Element [Title]: option [Mr.]
+2019-06-08 08:19:05    Step: Element [Title]: option [Mrs.]
+2019-06-08 08:19:05    Step: Element [Title]: VerifyAttribute [value] <equal> [Mrs.].
+2019-06-08 08:19:05    Pass: real value=[Mrs.]
+2019-06-08 08:19:05    Step: Element [Title]: Select by Order [3]
+2019-06-08 08:19:05    Step: Element [Title]: options Count = [4].
+2019-06-08 08:19:05    Step: Element [Title]: Do Click [Ms.]
+2019-06-08 08:19:05    Step: Element [Title]: VerifyAttribute [value] <equal> [Ms.].
+2019-06-08 08:19:05    Pass: real value=[Ms.]
+2019-06-08 08:19:05    Step: Element [Title]: VerifyAttribute [value] <not equal> [Dr.].
+2019-06-08 08:19:05    Pass: real value=[Ms.]
+2019-06-08 08:19:05    Step: Element [Name]: Set [Super Man].
+2019-06-08 08:19:05    Step: Element [Name]: VerifyAttribute [value] <contain> [Super].
+2019-06-08 08:19:05    Pass: real value=[Super Man]
+2019-06-08 08:19:05    Step: Element [Name]: VerifyAttribute [value] <not contain> [More].
+2019-06-08 08:19:05    Pass: real value=[Super Man]
+2019-06-08 08:19:05    Step: Element [Name]: VerifyAttribute [value] <in> [Here Comes Super Man!!].
+2019-06-08 08:19:06    Pass: real value=[Super Man]

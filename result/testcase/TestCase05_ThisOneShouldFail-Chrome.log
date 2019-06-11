@@ -1,16 +1,16 @@
 
 **************  Test Case [TestCase05_ThisOneShouldFail] [Chrome]  ***************
-2018-05-09 22:15:04    Step: Element [Result]: VerifyAttribute [innerHTML] <equal> [].
-2018-05-09 22:15:04    Pass: real value=[]
-2018-05-09 22:15:04    Step: Element [Title]: Select by Order [1]
-2018-05-09 22:15:04    Step: Element [Title]: options Count = [4].
-2018-05-09 22:15:04    Step: Element [Title]: Do Click [Mr.]
-2018-05-09 22:15:04    Step: Element [Name]: Set [Super Man].
-2018-05-09 22:15:04    Step: Element [Male]: Click()
-2018-05-09 22:15:04    Step: Element [Music]: Click()
-2018-05-09 22:15:05    Step: Element [Sport]: Click()
-2018-05-09 22:15:05    Step: Element [SubmitButton]: Click()
-2018-05-09 22:15:05    Step: Element [Result]: VerifyAttribute [innerHTML] <not contain> [Sport].
------------- Fail [2018-05-09 22:15:05] -------------------
-2018-05-09 22:15:05    Fail: real value=[Mr. Super Man<br>Gender: Male<br>Hobbies: Music,Sport<br>], Check ScreenShot [Fail__2018-05-09_22_15_05__TestCase05_ThisOneShouldFail-Chrome__chrome.png]
------------- Fail [2018-05-09 22:15:05] ---------------------------------------
+2019-06-08 08:20:30    Step: Element [Result]: VerifyAttribute [innerHTML] <equal> [].
+2019-06-08 08:20:30    Pass: real value=[]
+2019-06-08 08:20:30    Step: Element [Title]: Select by Order [1]
+2019-06-08 08:20:30    Step: Element [Title]: options Count = [4].
+2019-06-08 08:20:30    Step: Element [Title]: Do Click [Mr.]
+2019-06-08 08:20:30    Step: Element [Name]: Set [Super Man].
+2019-06-08 08:20:30    Step: Element [Male]: Click()
+2019-06-08 08:20:30    Step: Element [Music]: Click()
+2019-06-08 08:20:30    Step: Element [Sport]: Click()
+2019-06-08 08:20:30    Step: Element [SubmitButton]: Click()
+2019-06-08 08:20:30    Step: Element [Result]: VerifyAttribute [innerHTML] <not contain> [Sport].
+------------ Fail [2019-06-08 08:20:30] -------------------
+2019-06-08 08:20:30    Fail: real value=[Mr. Super Man<br>Gender: Male<br>Hobbies: Music,Sport<br>], Check ScreenShot [Fail__2019-06-08_08_20_30__TestCase05_ThisOneShouldFail-Chrome__chrome.png]
+------------ Fail [2019-06-08 08:20:30] ---------------------------------------

@@ -1,15 +1,15 @@
 # hobby
-This is a demonstration project of how to write web ui automation by knitter framework.
+This is a demonstration project of how to write web-ui automation by knitter framework.
 
 --------------------------------------------------
 
 - Install Python3.5+
 
-- Install Knitter
+- Install knitter
 
-        > pip install knitter
+        > pip3 install knitter
 
-- Configure Drivers of Chrome/FireFox/IE.
+- Configure drivers of Chrome/FireFox
 
         driver\README.MD
 
