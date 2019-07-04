@@ -1,6 +1,6 @@
 
 **************  Test Case [TestCase01_AllCombinations] [FireFox]  ***************
-2019-06-08 08:21:10    Step: Launch Browser FireFox. URL = http://sleepycat.org/knitter/hobby.html
+2019-06-08 08:21:10    Step: Launch Browser FireFox. URL = http://www.outsidematrix.com/knitter/hobby.html
 
 2019-06-08 08:21:17    Section: Execute Excel Data of Line [1]
 2019-06-08 08:21:17    Step: Excel Column [Title]=[Dr.]

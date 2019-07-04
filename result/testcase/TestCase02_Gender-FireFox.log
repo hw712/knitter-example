@@ -1,6 +1,6 @@
 
 **************  Test Case [TestCase02_Gender] [FireFox]  ***************
-2019-06-08 08:19:30    Step: Launch Browser FireFox. URL = http://sleepycat.org/knitter/hobby.html
+2019-06-08 08:19:30    Step: Launch Browser FireFox. URL = http://www.outsidematrix.com/knitter/hobby.html
 2019-06-08 08:19:37    Step: Element [Male]: VerifyAttribute [checked] <equal> [None].
 2019-06-08 08:19:37    Pass: real value=[None]
 2019-06-08 08:19:37    Step: Element [Female]: VerifyAttribute [checked] <equal> [None].
