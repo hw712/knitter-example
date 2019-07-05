@@ -20,4 +20,4 @@ This is a demonstration project of how to write web-ui automation by knitter fra
 
 - Documentation
 
-    * [http://www.outsidematrix.com/blog/QA/Knitter-Tutorial.html](http://www.outsidematrix.com/blog/QA/Knitter-Tutorial.html)
+    * [http://www.outsidematrix.com/note/QA/Knitter-Tutorial.html](http://www.outsidematrix.com/note/QA/Knitter-Tutorial.html)

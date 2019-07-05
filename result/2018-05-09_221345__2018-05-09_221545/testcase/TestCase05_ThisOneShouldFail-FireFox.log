@@ -1,6 +1,6 @@
 
 **************  Test Case [TestCase05_ThisOneShouldFail] [FireFox]  ***************
-2018-05-09 22:15:08    Step: Launch Browser FireFox. URL = http://www.outsidematrix.com/static/knitter/hobby.html
+2018-05-09 22:15:08    Step: Launch Browser FireFox. URL = http://www.outsidematrix.com/knitter/hobby.html
 2018-05-09 22:15:14    Step: Element [Result]: VerifyAttribute [innerHTML] <equal> [].
 2018-05-09 22:15:14    Pass: real value=[]
 2018-05-09 22:15:14    Step: Element [Title]: Select by Order [1]

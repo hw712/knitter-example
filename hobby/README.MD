@@ -1,5 +1,5 @@
 This project shows how knitter framework works. 
 
 
-http://www.outsidematrix.com/static/knitter/hobby.html
+http://www.outsidematrix.com/knitter/hobby.html
 
