@@ -1,6 +1,6 @@
 
 **************  Test Case [TestCase03_Hobbies] [FireFox]  ***************
-2019-06-08 08:19:50    Step: Launch Browser FireFox. URL = http://www.outsidematrix.com/knitter/hobby.html
+2019-06-08 08:19:50    Step: Launch Browser FireFox. URL = https://outsidematrix.com/knitter/hobby.html
 2019-06-08 08:19:57    Step: Element [Music]: VerifyAttribute [checked] <equal> [None].
 2019-06-08 08:19:57    Pass: real value=[None]
 2019-06-08 08:19:57    Step: Element [Sport]: VerifyAttribute [checked] <equal> [None].

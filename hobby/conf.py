@@ -14,7 +14,7 @@ def windows():
     Browser.HeadlessMode = False
 
     # URL
-    Browser.StartURL = "http://www.outsidematrix.com/knitter/hobby.html"
+    Browser.StartURL = "https://outsidematrix.com/knitter/hobby.html"
 
     # Result
     General.Path.Result = "result"
